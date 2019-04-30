@@ -10,4 +10,5 @@ public class Shrub extends Plant {
     public PlantColor getColor() {
         return PlantColor.GREEN;
     }
+
 }

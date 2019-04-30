@@ -25,4 +25,9 @@ public abstract class Plant implements Comparable<Plant> {
     }
 
     public abstract PlantColor getColor();
+
+    @Override
+    public int compareTo(Plant plant) {
+        return Double.compare(this.height, plant.height);
+    }
 }
