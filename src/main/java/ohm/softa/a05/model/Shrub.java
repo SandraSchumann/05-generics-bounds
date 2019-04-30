@@ -1,24 +1,13 @@
 package ohm.softa.a05.model;
 
-public class Shrub {
+public class Shrub extends Plant {
 
-    double height;
-    String family;
-    String name;
-
-    double getHeight(){
-      return 0;
+    public Shrub(String family, String name, double height) {
+        super(family, name, height);
     }
 
-    String getFamily(){
-        return null;
-    }
-
-    String getName(){
-        return null;
-    }
-
-    PlantColor getColor(){
-        return null;
+    @Override
+    public PlantColor getColor() {
+        return PlantColor.GREEN;
     }
 }
