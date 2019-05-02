@@ -4,6 +4,6 @@ public enum PlantColor {
     GREEN,
     YELLOW,
     RED,
-    BLUE,
+    VIOLETTE,
     ORANGE
 }
